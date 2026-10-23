@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neon"
+version = "0.1.0"
+description = "GUI for neo package manager"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt6>=6.6",
+    "neo>=0.1.0",
+]
+
+[project.scripts]
+neon = "neon.app:main"

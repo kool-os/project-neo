@@ -1,0 +1,12 @@
+target/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.whl
+dist/
+build/
+.pytest_cache/
+.coverage
+*.log
+.DS_Store

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>kool-os@users.noreply.github.com</email>
+    <name>kool-os</name>
+  </maintainer>
+  <use>
+    <flag name="rust-core">Enable high-performance Rust PyO3 core engine (neo-core)</flag>
+  </use>
+  <longdescription>
+    Part of the neo unified package manager for Gentoo Linux.
+    Supports ebuild (Portage), Flatpak, Homebrew, Homebrew Cask, and binary packages.
+  </longdescription>
+</pkgmetadata>

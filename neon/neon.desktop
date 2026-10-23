@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Neon
+GenericName=Package Manager
+Comment=Graphical frontend for the neo unified package manager (Gentoo)
+Exec=/home/ssd/.local/bin/neon
+Icon=system-software-install
+Terminal=false
+Type=Application
+Categories=System;PackageManager;Qt;
+Keywords=package;manager;gentoo;portage;emerge;flatpak;brew;neo;neon;
+StartupNotify=true
+StartupWMClass=neon
