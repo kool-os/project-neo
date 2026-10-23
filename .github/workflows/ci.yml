@@ -9,4 +9,4 @@ jobs:
       - name: Install pkgcheck
         run: emerge-webrsync && emerge pkgcheck
       - name: Run pkgcheck
-        run: pkgcheck scan --exit-zero
+        run: pkgcheck scan 
