@@ -9,7 +9,7 @@
 ## Architecture Overview
 
 ```
-/home/ssd/neo/
+/home/user/neo/
 ├── neo-core/           # Rust acceleration core (PyO3)
 │   ├── src/
 │   │   ├── lib.rs      # PyO3 bindings & high-speed search
@@ -108,7 +108,7 @@ sudo emerge -av =dev-python/neo-core-9999
 ### One-Step Automated Installation
 Run the included installation script:
 ```bash
-cd /home/ssd/neo
+cd /home/user/neo
 ./install.sh
 ```
 
@@ -116,20 +116,20 @@ cd /home/ssd/neo
 
 1. **Build and install the Rust core (`neo-core`)**:
    ```bash
-   cd /home/ssd/neo/neo-core
+   cd /home/user/neo/neo-core
    maturin build --release
    pip install --break-system-packages target/wheels/neo_core-*.whl
    ```
 
 2. **Install the CLI (`neo-cli`)**:
    ```bash
-   cd /home/ssd/neo/neo-cli
+   cd /home/user/neo/neo-cli
    pip install --break-system-packages -e .
    ```
 
 3. **Install the GUI (`neon`)**:
    ```bash
-   cd /home/ssd/neo/neon
+   cd /home/user/neo/neon
    pip install --break-system-packages -e .
    ```
 
