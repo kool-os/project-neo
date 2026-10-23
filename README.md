@@ -103,7 +103,7 @@ sudo emerge -av =dev-python/neo-core-9999
 - Gentoo Linux
 - Python >= 3.11
 - Rust / Cargo
-- `maturin`, `pip`, and `PyQt6`
+- `maturin`, `pip`, and `PyQt6 Homebrew Flatpak And KDE Plasma is best For the gui but gtk bassed DEs also works!`
 
 ### One-Step Automated Installation
 Run the included installation script:
